@@ -1,4 +1,24 @@
-.todo-list, .list-group-item {
+.todo-list.list-group-item {
   width: 440px;
   padding: 0.25rem 0 0.25rem 0;
+}
+
+.todo-list {
+  max-height: 185px;
+  overflow-y: scroll;
+  min-height: 185px;
+}
+
+.todo-list::-webkit-scrollbar, ::-webkit-scrollbar-track {
+  width: 10px;
+  background-color: transparent
+}
+
+.todo-list::-webkit-scrollbar-thumb {
+  background: rgba(11, 106, 194, .6);
+  border-radius: 100px;
+}
+.todo-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
 }

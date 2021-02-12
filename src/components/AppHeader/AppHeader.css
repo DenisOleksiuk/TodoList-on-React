@@ -4,6 +4,7 @@
 
 .app-header h1 {
   flex-grow: 1;
+  color: coral;
 }
 
 .app-header h2 {
